@@ -79,7 +79,7 @@ body{
 }
 .table-container {
   max-width: 880px;
-  height: 560px;
+  height: auto;
   margin: 0 auto;
   margin-top: 70px;
   border-radius: 10px;
