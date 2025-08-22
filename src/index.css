@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto-flex', sans-serif;
+  text-shadow: #a1b7cdb4 0px 1px 2px;
+  background-color: #e9f0f7;
+}
+
+.app  {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.currency-div {
+  max-width: 850px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(47, 114, 187, 0.321);
+  padding: 28px 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #356ea7;
+  letter-spacing: 1px;
+}
+
+.currency-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 17px;
+}
+
+.amount, .fromCurrency, .toCurrency, .result {
+  max-width: auto;
+  padding: 8px 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.result {
+  background: #f5f5f5;
+  color: #356ea7;
+  font-weight: 600;
+}
+
+.exchange-button {
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 0;
+  background: #356ea7;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.exchange-button:hover {
+  background: #1256a3;
+}
+
+.date-picker {
+  width: 200px;
+  margin: 25px auto 0;
+}
+.table-container {
+  max-width: 880px;
+  height: 560px;
+  margin: 0 auto;
+  margin-top: 70px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(47, 114, 187, 0.321);
+  background-color: #073f654b;
+  padding: 20px;
+  color: #1b4162;
+}
+
+.table-container th  {
+  position: sticky;
+  top: 0;
+  background:#356ea7;
+  color: #fff;
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.chart-container {
+  width: 84%;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+}
+
+.range-select {
+  margin-bottom: 18px;
+}
+
+.range-select select {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #bdbdbd;
+  outline: none;
+}
+
+.loading {
+  color: #1976d2;
+  font-weight: 500;
+}
+
+.error {
+  color: #d32f2f;
+  font-weight: 500;
+}
